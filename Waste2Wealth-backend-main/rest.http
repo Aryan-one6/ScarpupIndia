@@ -1,0 +1,21 @@
+### Home Route
+POST http://waste2wealth.onrender.com/api/user/sumitsaurav1119@gmail.com
+Content-Type: application/json
+
+{
+  "id": "saurabhbadal7262@gmail.com",
+  "phone": 7261854534,
+  "location": "Mohali",
+  "date": "2023-10-29T00:00:00.000Z",
+  "hour": "10:00-12:00"
+}
+
+
+### Users Route
+POST http://localhost:5005/api/user/otp/sumitsaurav119@gmail.com
+Content-Type: application/json
+
+{
+  "otp":393147,
+  "booking_id":1698001800143
+}
